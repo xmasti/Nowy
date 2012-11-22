@@ -1,4 +1,5 @@
 <?php
+
 /*
  * Losowanie liczb
  */
@@ -9,22 +10,19 @@ echo "<hr>";
 /**
  * losowanie z tablic
  */
-
 $tab = array('a', 'b', 'c', 'd');
 
 $w = '';
 
-for($i=0;$i<=3;$i++)
-{
-	$w .= $tab[array_rand($tab)];
+for ($i = 0; $i <= 3; $i++) {
+    $w .= $tab[array_rand($tab)];
 }
-	echo $w;
+echo $w;
 
 
 echo "<hr>";
 
 
-for($i=0;$i<=160;$i++)
-{
-	echo $i.' - '.chr($i).'<br>';	
+for ($i = 0; $i <= 160; $i++) {
+    echo $i . ' - ' . chr($i) . '<br>';
 }
